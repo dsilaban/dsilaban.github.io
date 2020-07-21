@@ -1,42 +1,68 @@
+body {
+  max-width: 90%;
+  margin: auto;
+  padding-bottom: 40px;
+}
 
-@media screen and (max-width:1024px) {
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  grid-row-gap: 40px;
+  grid-column-gap: 40px;
+  position: relative;
+  margin: 0 auto;
+  width: 85%;
+}
+
+.container2 {
+  margin: auto;
+  width: 90%;
+}
+
+@media screen and (max-width: 1024px) {
   .container {
-      display: flex;
-      grid-template-columns: auto auto;
-      grid-template-rows: auto;
-      grid-row-gap: 40px;
-      grid-column-gap: 40px;
-      position: relative;
-      margin: 0 auto;
-      width: 25%;
+    grid-template-columns: auto;
+    grid-row-gap: 20px;
   }
 }
 
-body{
-  max-width: 90%;
-  margin: auto;
-}
-
 .wave {
-  animation-name: wave-animation; 
-  animation-duration: 1.5s; 
-  animation-iteration-count: infinite;  
-  transform-origin: 70% 70%; 
+  animation-name: wave-animation;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
   display: inline-block;
 }
 
 @keyframes wave-animation {
-    0% { transform: rotate( 0.0deg) }
-   10% { transform: rotate(20.0deg) } 
-   20% { transform: rotate(-10.0deg) }
-   30% { transform: rotate(14.0deg) }
-   40% { transform: rotate(-4.0deg) }
-   50% { transform: rotate(10.0deg) }
-   60% { transform: rotate( 0.0deg) } 
-  100% { transform: rotate( 0.0deg) }
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(20deg);
+  }
+  20% {
+    transform: rotate(-10deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
-.wrapper{
+.wrapper {
   display: grid;
 }
 
@@ -47,53 +73,46 @@ body{
   font-size: 16px;
   padding-right: 16px;
   float: right;
-  color: #363D45;
+  color: #363d45;
   opacity: 75%;
 }
 
-.name{
+.name {
   text-align: left;
   padding-top: 40px;
   font-weight: bold;
   font-size: 16px;
   font-family: 'Muli';
-  color: #363D45;
+  color: #363d45;
   text-decoration: none;
 }
 
-.minidesc{
+.minidesc {
   text-align: center;
   font-size: 21px;
   font-family: 'Muli';
-  color: #363D45;
+  color: #363d45;
 }
 
-
-.desc{
+.desc {
   text-align: center;
   padding-top: 40px;
   font-weight: bold;
   font-size: 34px;
   font-family: 'Muli';
-  color: #363D45;
+  color: #363d45;
 }
-
-
 
 .container > div {
   display: flex;
   justify-content: left;
   align-items: left;
   font-size: 16px;
-  color: #363D45;
+  color: #363d45;
   font-family: 'Muli';
 }
-
 .container2 > div {
-  justify-content: left;
-  align-items: left;
-  font-size: 16px;
-  color: #363D45;
+  display: block;
   font-family: 'Muli';
 }
 
@@ -104,17 +123,23 @@ body{
 
 .center2 {
   border-radius: 10px;
-  width: 70%;
+  width: 168px;
   float: right;
 }
 
+@media screen and (max-width: 1024px) {
+  .center2 {
+    float: left;
+    width: 100%;
+  }
+}
 .button {
   border: none;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top:10px;
-  padding-bottom:10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -126,18 +151,16 @@ body{
 }
 
 .button1 {
-  background-color: white; 
-  color:#363D45; 
-  border: 1px solid #363D45;
+  background-color: white;
+  color: #363d45;
+  border: 1px solid #363d45;
   border-radius: 3px;
 }
 
 .button1:hover {
-  color: white; 
-  background-color: #363D45; 
+  color: white;
+  background-color: #363d45;
 }
-
-
 
 .overlay {
   position: absolute;
@@ -146,14 +169,13 @@ body{
   width: 100px;
   height: 100px;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   background-color: white;
 }
 
 .container:hover .overlay {
-  opacity: .9;
+  opacity: 0.9;
 }
-
 
 .text {
   color: black;
