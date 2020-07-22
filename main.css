@@ -8,11 +8,11 @@ body {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto;
-  grid-row-gap: 40px;
+  grid-row-gap: 80px;
   grid-column-gap: 40px;
   position: relative;
   margin: 0 auto;
-  width: 85%;
+  width: 75%;
 }
 
 .container2 {
@@ -94,19 +94,23 @@ body {
 }
 
 .minidesc {
-  text-align: center;
+  text-align: left;
   font-size: 21px;
   font-family: 'Muli';
   color: #363d45;
+  padding-left: 8%;
+  padding-bottom: 40px;
+  margin-top: 10px;
 }
 
 .desc {
-  text-align: center;
-  padding-top: 40px;
+  padding-top: 80px;
+  padding-left: 8%;
   font-weight: bold;
   font-size: 34px;
   font-family: 'Muli';
   color: #363d45;
+  margin: 0;
 }
 
 .container > div {
