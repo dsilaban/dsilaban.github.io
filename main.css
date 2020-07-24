@@ -33,8 +33,7 @@ body {
     grid-column-gap: 40px;
     position: relative;
     margin: 0 auto;
-    width: 70%;
-    transform: scale(0.3)
+    width: 30%;
   }
   .center {
     border-radius: 10px;
