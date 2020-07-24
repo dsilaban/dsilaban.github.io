@@ -25,6 +25,18 @@ body {
   width: 70%;
 }
 
+@media screen and (max-width: 1024px) {
+  .center {
+    border-radius: 10px;
+    width: 25%;
+    height: 25%;
+  }
+  .center2 {
+    border-radius: 10px;
+    width: 25%;
+  }
+}
+
 
 .wave {
   animation-name: wave-animation;
