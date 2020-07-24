@@ -29,15 +29,17 @@ body {
   .container {
     display: grid;
     grid-template-columns: auto;
+    grid-template-rows: auto;
     grid-row-gap: 0px;
     grid-column-gap: 40px;
     position: relative;
     margin: 0 auto;
-    width: 30%;
+    width: 70%;
   }
   .center {
     border-radius: 10px;
-    width: 25%;
+    width: 15%;
+    height: auto;
   }
 
   .container2 {
