@@ -99,7 +99,8 @@ body {
 }
 
 .minidesc {
-  text-align: left;
+  text-align: right;
+  width: 50%;
   font-size: 30px;
   font-family: 'Ovo';
   color: #363d45;
