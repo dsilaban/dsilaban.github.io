@@ -100,8 +100,8 @@ body {
 
 .minidesc {
   text-align: left;
-  font-size: 18px;
-  font-family: 'Muli';
+  font-size: 30px;
+  font-family: 'Ovo';
   color: #363d45;
   padding-left: 8%;
   padding-bottom: 80px;
@@ -112,8 +112,8 @@ body {
   padding-top: 80px;
   padding-left: 8%;
   font-weight: bold;
-  font-size: 34px;
-  font-family: 'Muli';
+  font-size: 40px;
+  font-family: 'Ovo';
   color: #363d45;
   margin: 0;
 }
