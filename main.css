@@ -103,6 +103,8 @@ body {
   width: 80%;
   font-size: 30px;
   font-family: 'Ovo';
+  font-weight: lighter;
+  letter-spacing: 5px;
   color: #363d45;
   padding-left: 8%;
   padding-right: 8%;
