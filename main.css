@@ -100,14 +100,13 @@ body {
 
 .minidesc {
   text-align: right;
-  width: 70%;
+  width: 75%;
   font-size: 30px;
   font-family: 'Ovo';
   font-weight: lighter;
   letter-spacing: .5px;
   color: #363d45;
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-right: 10%;
   padding-bottom: 80px;
   margin-top: 10px;
   float: right;
