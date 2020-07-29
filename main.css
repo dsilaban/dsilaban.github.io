@@ -123,6 +123,25 @@ body {
   margin: 0;
 }
 
+h3 {
+  font-family: 'Muli';
+  color: #363d45;
+  font-weight: bold; 
+  font-size: 34px
+}
+
+h4 {
+  font-family: 'Muli';
+  color: #363d45;
+  font-size: 21px
+}
+
+.writeup {
+  font-size: 16px;
+  color: #363d45;
+  font-family: 'Muli';
+}
+
 
 .container > div {
   display: flex;
