@@ -17,7 +17,7 @@ border-style: inset; border-width: 1px;}
 .row {
   display: flex;
   padding: 15px;
-  padding-bottom: 80px;
+  padding-bottom: 5%;
   overflow-x: hidden;
 }
 
