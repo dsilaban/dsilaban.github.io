@@ -108,7 +108,7 @@ border-style: inset; border-width: 1px;}
   font-size: 16px;
   padding-right: 16px;
   float: right;
-  color: #363d45;
+  color: black;
   opacity: 60%;
 }
 
@@ -124,16 +124,15 @@ border-style: inset; border-width: 1px;}
   padding-top: 5%;
   font-size: 16px;
   font-family: 'Open Sans';
-  color: #363d45;
+  color: black;
   text-decoration: none;
 }
 
 .minidesc {
   font-size: 20px;
   font-family: 'Open Sans';
-  font-weight: 50;
   letter-spacing: .5px;
-  color: #363d45;
+  color: black;
   padding-bottom: 50px;
   margin-top: 10px;
 }
@@ -143,32 +142,32 @@ border-style: inset; border-width: 1px;}
   font-weight: 600;
   font-size: 50px;
   font-family: 'Open Sans';
-  color: #363d45;
+  color: black;
   margin: 0;
 }
 
 h3 {
   font-family: 'Open Sans';
-  color: #363d45;
+  color: black;
   font-weight: bold; 
   font-size: 34px
 }
 
 h4 {
   font-family: 'Open Sans';
-  color: #363d45;
+  color: black;
   font-size: 21px
 }
 
 p {
   font-family: 'Open Sans';
-  color: #363d45;
+  color: black;
   font-size: 16px
 }
 
 .writeup {
   font-size: 16px;
-  color: #363d45;
+  color: black;
   font-family: 'Open Sans';
 }
 
@@ -178,7 +177,7 @@ p {
   justify-content: left;
   align-items: left;
   font-size: 16px;
-  color: #363d45;
+  color: black;
   font-family: 'Open Sans';
 }
 .container2 > div {
