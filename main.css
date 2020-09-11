@@ -126,6 +126,15 @@ border-style: inset; border-width: 1px;}
   margin: 0;
 }
 
+.minidesc3 {
+  font-size: 40px;
+  font-family: 'Playfair Display';
+  color: #1C1D21;
+  margin: 0;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
 .desc {
   padding-top: 80px;
   font-weight: 600;
@@ -214,6 +223,10 @@ p {
 .button1:hover {
   color: white;
   background-color: #363d45;
+}
+
+.minidesc3:hover {
+  font-size: 45;
 }
 
 .overlay {
